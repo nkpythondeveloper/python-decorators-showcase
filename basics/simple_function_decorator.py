@@ -1,8 +1,8 @@
 def simple_decorator(func):
     def wrapper():
-        print("1. Before the function runs")
+        print("Before the function runs")
         func()
-        print("2. After the function runs")
+        print("After the function runs")
 
     return wrapper
 
